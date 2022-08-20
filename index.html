@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hửu Trọng</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+</head>
+<body>
+    <div class="background">
+        <audio preload="none" controls="controls">
+            <source src="./assets/fonts/Music/Cuoc Vui Co Don - Le Bao Binh (NhacPro.net).mp3" type="audio/mpeg" />
+            Trình duyệt của bạn không hỗ trợ thẻ audio
+            </audio>
+        <div class="background_main">
+            <div class="background_main_Avatar">
+                <img src="./assets/fonts/Image/Girl.jpg" alt="Avatar">
+            </div>
+            <div class="background_main_info">
+                <p class="background_main_info_name">Nguyễn Hửu Trọng <i class="fa-solid fa-check"></i></p>
+                <p class="background_main_info_sologan">I'm myseft</p>
+                
+            </div>
+            <div class="background_main_contact">
+                <div class="background_main_contact_box">
+                    <a class="fa-brands fa-facebook" href="https://www.facebook.com/profile.php?id=100007476105795"></a>
+                </div>
+                <div class="background_main_contact_box">
+                    <a href="https://github.com/tronghk" class="fa-brands fa-github"></a>
+
+                </div>
+                <div class="background_main_contact_box"> 
+                    <img onclick="myInstagram()" src="./assets/fonts/Image/Instagram-Icon.png" alt="Instagram" class="background_main_contact_image">
+
+                </div>
+                <div class="background_main_contact_box">
+                    <img onclick="myZalo()" class="background_main_contact_image" src="./assets/fonts/Image/zalo.png" alt="Zalo">
+                </div>
+                <div class="background_main_contact_box">
+                    <a class="fa-brands fa-twitter" href="https://twitter.com/TrongHk226"></a>
+                </div >
+                <div class="background_main_contact_box">
+                    <img onclick="myGmail()" class="background_main_contact_image" src="./assets/fonts/Image/gmail_new_logo_icon_159149.png" alt="Gmail">               
+                </div>
+                <div class="background_main_contact_box">
+                    <a class="fa-brands fa-youtube" href="#"></a>
+                </div>
+                <div class="background_main_contact_box">
+                    <a class=" fa-brands fa-paypal" href="#"></a>
+                </div>
+            </div>
+            <div class="background_main_work">
+                <p class="background_main_work_Cv">Người yêu của tui
+                    <a href="#"></a>
+                </p>
+                <p onclick="inboxToMe()" class="background_main_work_inbox">Trò chuyện
+                    <a href="#"></a>
+                </p>
+            </div>
+        </div>
+    </div>  
+</body>
+<script  type="text/javascript">
+    // Lấy danh sách các thẻ
+    var list = document.getElementsByClassName("background_main_work_Cv") // elements
+       list[0].onclick = function(){
+       alert("Ai nói cho mà biết :>")
+    }
+    function myInstagram(){
+        location.assign("https://www.instagram.com/accounts/login/");
+    }
+    function myZalo(){
+        location.assign("https://id.zalo.me/account?continue=https%3A%2F%2Fchat.zalo.me%2F");
+    }
+    function myGmail(){
+        location.assign("https://mail.google.com/mail/u/0/#inbox");
+    }
+    function inboxToMe(){
+        location.assign("https://www.messenger.com/t/100007871071739/");
+    }
+
+ </script>
+
+</html>

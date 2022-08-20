@@ -1,0 +1,170 @@
+:root{
+    --colorBackground-color: #e3edf7;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+html{
+    text-align: center;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa-solid{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    width: 16px;
+    height: 16px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(45 136 255 / var(--tw-bg-opacity));
+    border-radius: 50%;
+}
+.background{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 0 25%;
+    background-color: var(--colorBackground-color);
+}
+
+.fa-paypal{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitter, .fa-facebook{
+    color: #4267b2;
+}
+.fa-github{
+    color: #333;
+}
+.background_main{
+    width: 28%;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left:36%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    
+
+}
+.background_main_Avatar{
+    position: relative;
+    margin: 20px;
+    box-sizing: inherit;
+    margin-left: 38%;
+    width: 100px;
+    height: 100px;
+
+    border: 2px solid #699dfb;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    /* box-shadow: ngang dọc độ-tràn-màu khoảng-cách mã-màu; */
+    -moz-box-shadow: 0px 0px 3px 2px #999;
+    -webkit-box-shadow: 0px 0px 3px 2px #999;
+    box-shadow: 0px 0px 3px 2px #999;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    height: 90px;
+    line-height: 90px;
+    margin: 20px;
+    text-align: center;
+    width: 90px;
+}
+.background_main_Avatar img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+    object-fit: cover;
+}
+
+.background_main_info_name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 2.25rem;
+   
+}
+
+.background_main_info_sologan{
+    margin: 10px 0;
+    font-size: 1.8rem;
+    opacity: 0.5;
+}
+
+.background_main_contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.background_main_contact img{
+    width: 100px;
+}
+
+.fa-brands{
+    display: flex;
+    font-size: 36px;
+    position: absolute;
+    top: 12%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.background_main_contact_image{
+    width: auto;
+}
+
+.background_main_work{
+    display: flex;
+    margin-top: 1.44rem;
+    
+}
+.background_main_work p{
+    opacity: 0.6;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition:  all 0.3s ease 0s;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+}
+.background_main_work p:hover{
+    box-shadow:  6px 6px 10px -2px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7), inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.background_main_work_Cv{
+    flex: 1;
+}
+.background_main_work_inbox{
+    flex: 1;
+}
+.background_main_contact_box{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 1.2rem 2.64rem ;
+    transition:  all 0.3s ease 0s;
+    padding: 6px;
+    border: 1px solid #ccc;
+    background-color: #e3edf7;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+}
+.background_main_contact_box:hover {
+  box-shadow:  6px 6px 10px -2px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7), inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
