@@ -44,7 +44,7 @@ html{
 }
 .music{
     display: flex;
-    weight: 100%;
+    width: 100%;
     justify-content: center;
 }
 .fa-github{
@@ -124,13 +124,10 @@ html{
 }
 
 .fa-brands{
-    display: flex;
-    font-size: 36px;
-    position: absolute;
-    top: 12%;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
+    width: 100%;
+    font-size: 3.5rem;
+    position: relative;
 }
 
 .background_main_contact_image{
