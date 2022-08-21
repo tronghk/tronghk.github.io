@@ -44,6 +44,7 @@ html{
 }
 .music{
     display: flex;
+    weight: 100%;
     justify-content: center;
 }
 .fa-github{
