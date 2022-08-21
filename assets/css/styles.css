@@ -43,8 +43,8 @@ html{
     color: #4267b2;
 }
 .music{
-    width: 100%;
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 .fa-github{
     color: #333;
