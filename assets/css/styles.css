@@ -42,15 +42,23 @@ html{
 .fa-twitter, .fa-facebook{
     color: #4267b2;
 }
+.music{
+    width: 100%;
+    display: block;
+}
 .fa-github{
     color: #333;
 }
 .background_main{
-    width: 28%;
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    left:36%;
+    position: fixed;
+    align-items: center;
+    max-width: 420px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+    left: 20px;
+    right: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
@@ -107,6 +115,7 @@ html{
 
 .background_main_contact{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .background_main_contact img{
@@ -154,8 +163,8 @@ html{
 }
 .background_main_contact_box{
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     display: flex;
     margin: 1.2rem 2.64rem ;
     transition:  all 0.3s ease 0s;
